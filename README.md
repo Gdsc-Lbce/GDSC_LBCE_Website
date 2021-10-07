@@ -1,7 +1,13 @@
-# GDSC_LBCE_Website
+# Google Developer Student Club - LBCE Website
 
-<div align="center"><a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="60%"/></a></div>
-
+![GitHub issues](https://img.shields.io/github/issues/Gdsc-Lbce/GDSC_LBCE_Website)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Gdsc-Lbce/GDSC_LBCE_Website)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<br />
+<br />
+<div align="center" margin-bottom="10em"><a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="60%"/></a></div>
+<br />
+<br />
 The official website of GDSC LBCE community.
 
 We are a new GDSC and looking for contributors to help us build our community website from scratch. 
