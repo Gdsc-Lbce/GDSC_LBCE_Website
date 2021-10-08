@@ -1,37 +1,50 @@
-body{
-    background-color: #DCDCDC;
+:root {
+  --bg: #dcdcdc;
+  --color1: #0f9d58;
+  --color2: #ea4335;
+  --color3: #4285f4;
+  --color4: #fbbc04;
+  --color5: #686f76;
 }
 
-.nav-link{
-  font-style:"Montserrat";
-  font-weight:100;
-  font-size:1.2rem;
+body {
+  background-color: var(--bg);
 }
-.navbar-brand{
-  font-style:"Ubuntu";
-  font-weight:700;
-  font-size:2.5rem;
 
+.nav-link {
+  font-style: "Montserrat";
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-style: "Ubuntu";
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 .text-container {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer-base{
-  background-color:#393E46;
+.footer-base {
+  background-color: var(--color5);
   text-align: center;
-  color:white;
+  color: white;
 }
 
-.footer-link{color:white;}
-.footer-link:hover{color:black;}
-.social-icon{
-  margin:0 14px 0 0;
-  padding:2.5rem 0;
+.footer-link {
+  color: white;
+}
+.footer-link:hover {
+  color: black;
+}
+.social-icon {
+  margin: 0 14px 0 0;
+  padding: 2.5rem 0;
 }
 
-.footer-text
-{margin-bottom:0;}
+.footer-text {
+  margin-bottom: 0;
+}
