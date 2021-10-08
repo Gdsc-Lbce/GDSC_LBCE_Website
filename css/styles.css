@@ -2,9 +2,36 @@ body{
     background-color: #DCDCDC;
 }
 
+.nav-link{
+  font-style:"Montserrat";
+  font-weight:100;
+  font-size:1.2rem;
+}
+.navbar-brand{
+  font-style:"Ubuntu";
+  font-weight:700;
+  font-size:2.5rem;
+
+}
 .text-container {
     margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.footer-base{
+  background-color:#393E46;
+  text-align: center;
+  color:white;
+}
+
+.footer-link{color:white;}
+.footer-link:hover{color:black;}
+.social-icon{
+  margin:0 14px 0 0;
+  padding:2.5rem 0;
+}
+
+.footer-text
+{margin-bottom:0;}
