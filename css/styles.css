@@ -1,7 +1,10 @@
 body{
-    background-color: beige;
+    background-color: #DCDCDC;
 }
 
 .text-container {
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
