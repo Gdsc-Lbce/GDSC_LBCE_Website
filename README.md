@@ -32,19 +32,10 @@ of the project to install the packages
 on the client side:
 
 ```
-cd client
-npm i
+cd GDSC_LBCE_Website
+open index.html
 ```
 
-#### Running the project
-
-Run the following command in the root
-to get the client side running:
-
-```
-cd client
-npm start
-```
 
 #### Starting to contribute 
 
