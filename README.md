@@ -32,6 +32,10 @@ Don't worry we got your back !!
 
 <br>
 
+## Contribute to the UI design of the website
+<a href="https://www.figma.com/file/Ug4bm8mjcNafExTiS5TBnr/GDSC-LBCE?node-id=0%3A1">Click Here</a> To contribute to the figma design of the website 
+
+
 ## Code of Conduct
 Please note that Open Source Design has a <a href="/CODE_OF_CONDUCT.md">Contributor Code of Conduct</a> . By participating in this project online or at events you agree to abide by its terms.
 
