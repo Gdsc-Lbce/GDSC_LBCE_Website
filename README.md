@@ -10,7 +10,7 @@
 
 <h2 align="center">About the Repository</h2>
 The Repository belongs to Google Developer Students Club of Dr. Lankapalli Bullayya College of Engineering.
-This is a newly found GDSC club and we are looking for some contributors to help us build our community website from scratch. We always encourage new ideas. Feel free to get in touch with us and join our [discord server](https://discord.gg/ATvz2fqw) for updates.
+This is a newly found GDSC club and we are looking for some contributors to help us build our community website from scratch. We always encourage new ideas. Feel free to get in touch with us and join our <a href="https://discord.gg/ATvz2fqw">Discord Server</a> for updates.
 
 <br>
 
@@ -34,6 +34,8 @@ Don't worry we got your back !!
 
 ## Contribute to the UI design of the website
 <a href="https://www.figma.com/file/Ug4bm8mjcNafExTiS5TBnr/GDSC-LBCE?node-id=0%3A1">Click Here</a> To contribute to the figma design of the website 
+
+<br>
 
 
 ## Code of Conduct
