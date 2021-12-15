@@ -13,14 +13,17 @@ body {
 
 .nav-link {
   font-style: "Montserrat";
-  font-weight: 100;
+  font-weight: 700;
   font-size: 1.2rem;
+  
 }
 .navbar-brand {
   font-style: "Ubuntu";
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  margin: -7px 0 0 0;
 }
+
 .text-container {
   margin: 2rem;
   display: flex;
