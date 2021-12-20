@@ -1,8 +1,22 @@
-.App {
-  text-align: center;
+#root {
+    display: block;
+    text-align: center;
+    background-color: black;
+    background: url("./darthmaterial.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.App-logo {
+.App {
+    border-radius: 14px;
+    border-color: rgb(231, 231, 231);
+    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.795);
+    width: fit-content;
+    display: inline-block;
+    text-align: center;
+}
+
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
