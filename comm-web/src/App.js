@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/banner/Banner';
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+    return (
+        <span style={{textAlign: "center"}}>
+            <div className="App">
+                <Banner></Banner>
+            </div>
+        </span>
+    );
 }
 
 export default App;
