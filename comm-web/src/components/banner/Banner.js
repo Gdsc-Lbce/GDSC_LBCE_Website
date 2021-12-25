@@ -11,18 +11,19 @@ const MAX_CONTENT_WIDTH = 2560;
 const SCROLLBAR_WIDTH = 0;
 
 const browserZoom = window.devicePixelRatio;
-const cssResolvedWidth = Math.round(window.screen.width * browserZoom - SCROLLBAR_WIDTH);
+const cssResolvedWidth = Math.round(window.screen.width - SCROLLBAR_WIDTH);
 var contentWidth;
 
 const bannerDiv = {
     display: "flex",
+    position: "fixed",
+    top: "0px",
     flexDirection: "column",
     textAlign: "left",
     backgroundImage: "url(" + ArrowGradient + "), url(" + BannerBackground + ")",
     backgroundSize: "contain, cover",
     backgroundPosition: "right, center",
     backgroundRepeat: "no-repeat",
-    overflowX: "hidden",
 };
 
 const bannerTextDiv0 = {
@@ -64,8 +65,8 @@ if (cssResolvedWidth <= MIN_CONTENT_WIDTH) {
     bannerDiv.overflowX = "hidden";
 };
 
-bannerDiv["height"] = `${BANNER_HEIGHT}px`;
-bannerDiv["width"] = `${contentWidth}px`;
+bannerDiv["height"] = `100%`;
+bannerDiv["width"] = `100%`;
 
 function Banner() {
     return (
@@ -73,11 +74,11 @@ function Banner() {
             <div style={bannerTextDiv0}>
                 <div style={{flex: "auto"}} />
                 <div style={{display: "flex", flexDirection: "column", flex: "auto"}}>
-                    <div style={{flex: "1 1 99%"}} />
-                    <div style={{flex: "1 1 1%"}}>
+                    <div style={{flex: "1 1 96%"}} />
+                    <div style={{flex: "1 1 4%"}}>
                         &nbsp;
                         <img src={GdscMono} alt="" height="13em" />
-                        <span style={{font: "PT Sans", fontSize: `${Math.round(1 / browserZoom * 1.2)}em`, fontWeight: "500"}}>
+                        <span style={{font: "PT Sans", fontSize: "1.2em", fontWeight: "900"}}>
                             &nbsp; Google Developer Student Club<br />
                         </span>
                     </div>
