@@ -1,13 +1,13 @@
 import './App.css';
 import Banner from './components/banner/Banner';
+import AboutUs from './components/about-us/AboutUs'
 
 function App() {
     return (
-        <span style={{textAlign: "center"}}>
-            <div className="App">
-                <Banner></Banner>
-            </div>
-        </span>
+        <div className="App">
+            <Banner />
+            <AboutUs />
+        </div>
     );
 }
 
