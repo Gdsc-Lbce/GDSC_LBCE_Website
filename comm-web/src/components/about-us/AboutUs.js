@@ -27,19 +27,23 @@ function AboutUs() {
                     <div style={{width: "45%", paddingTop: "10px"}}>
                         <img data-aos="zoom-in-up" src={Rocket} alt="" width="80%" />
                     </div>
-                    <div style={{display: "block", width: "45%", textAlign: "left", padding: "30px"}}>
+                    <div style={{display: "flex", flexDirection: "column", width: "45%", textAlign: "left", padding: "30px"}}>
+                        <div style={{flex: "1 1 48%"}} />
                         <p data-aos="fade-up" data-aos-offset="50" style={{font: "Montserrat", fontSize: "15px", fontWeight: "600", color: "rgba(255, 255, 255, .8)", margin: "0"}}>WHO ARE WE?</p>
                         <p data-aos="fade-up" data-aos-offset="50" style={{font: "Montserrat", fontSize: "30px", fontWeight: "700", color: "white", marginTop: "5px", marginBottom: "5px"}}>{"GDSC LBCE Chapter"}</p>
                         <p data-aos="fade-up" data-aos-offset="50" style={{font: "Montserrat", fontSize: "15px", fontWeight: "400", color: "rgba(255, 255, 255, .6)", margin: "0"}}>{WHO_ARE_WE}</p>
+                        <div style={{flex: "1 1 48%"}} />
                     </div>
                 </div>
                 <div style={{flex: "1 1 49%", paddingLeft: "50px", display: "flex", paddingBottom: "60px"}}>
-                    <div style={{display: "block", width: "45%", textAlign: "left", padding: "30px"}}>
+                    <div style={{display: "flex", flexDirection: "column", width: "45%", textAlign: "left", padding: "30px"}}>
+                        <div style={{flex: "1 1 48%"}} />
                         <p data-aos="fade-up" data-aos-offset="50" style={{font: "Montserrat", fontSize: "15px", fontWeight: "600", color: "rgba(255, 255, 255, .8)", margin: "0"}}>WHAT DO WE DO?</p>
                         <p data-aos="fade-up" data-aos-offset="100" style={{font: "Montserrat", fontSize: "30px", fontWeight: "700", color: "white", marginTop: "5px", marginBottom: "5px"}}>“Bridging the gap<br />between theory and practice”</p>
                         <p data-aos="fade-up" data-aos-offset="150" style={{font: "Montserrat", fontSize: "15px", fontWeight: "400", color: "rgba(255, 255, 255, .6)", margin: "0"}}>{WHAT_DO_WE_DO}</p>
+                        <div style={{flex: "1 1 48%"}} />
                     </div>
-                    <div style={{width: "45%", paddingTop: "60px"}}>
+                    <div style={{width: "45%"}}>
                         <img data-aos="zoom-in-up" src={Collab} alt="" width="80%" />
                     </div>
                 </div>
