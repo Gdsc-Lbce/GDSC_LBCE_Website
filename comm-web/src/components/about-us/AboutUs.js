@@ -12,12 +12,25 @@ function AboutUs() {
     useEffect(() => {
         AOS.init({
             duration : 1000,
-            once: false,  // to be trued during deployment
+            once: true,  // to be trued during deployment
         });
     }, []);
+
+    useEffect(() => {
+        var translationDiff = 0;
+        function updateSVGPosition() {
+            const yOffset = document.body.ownerDocument.defaultView.pageYOffset - document.body.scrollTop;
+            var translation = (yOffset / window.innerHeight * 100);
+            translationDiff = Math.abs(translation - translationDiff);
+            if (translation < 90 && translationDiff > 10)
+                document.getElementById('w-curve').style.backgroundPosition = `${translation}% 90%`;
+        };
+        window.addEventListener("scroll", updateSVGPosition, false)
+    }, []);
+
     return (
-        <div style={{position: "absolute", top: `${window.innerHeight - 60}px`, display: "block", width: "100%"}}>
-            <div style={{overflowY: "hidden", backgroundRepeat: "no-repeat", backgroundImage: "url(" + WavyCurve + ")", backgroundPosition: "10% 90%", backgroundSize: "3000px 80px", width: `100%`, height: "85px"}} />
+        <div id="about-us-div" style={{position: "absolute", top: `${window.innerHeight - 60}px`, display: "block", width: "100%"}}>
+            <div id="w-curve" style={{transition: "all 3s ease-out", overflowY: "hidden", backgroundRepeat: "no-repeat", backgroundImage: "url(" + WavyCurve + ")", backgroundPosition: "50% 90%", backgroundSize: "3000px 80px", width: `100%`, height: "85px"}} />
             <div style={{display: "flex", flexDirection: "column", backgroundColor: "rgba(34, 32, 39, 1)", width: `100%`, paddingTop: "10px"}}>
                 <div data-aos="fade-right" style={{flex: "1 1 2%", display: "flex", paddingLeft: "50px", paddingBottom: "50px"}}>
                     <span style={{textAlign: "left", font: "Ubuntu Mono", fontSize: "25px", fontWeight: "600", color: "rgb(74, 74, 75)"}}>LBCE /&nbsp;</span>
