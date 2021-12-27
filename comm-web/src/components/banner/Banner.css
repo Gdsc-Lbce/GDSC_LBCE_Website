@@ -1,6 +1,7 @@
 #banner-div {
     min-width: 1024px;
     max-width: 2560px;
+    max-height: 1440px;
     height: 100%;
     width: 100%;
     display: flex;
