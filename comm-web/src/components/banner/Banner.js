@@ -4,6 +4,11 @@ import LinkedIn from "./linkedin.png";
 import Github from "./github.png";
 import "./Banner.css";
 
+const ipx = (i) => {
+    const BASE_RESOLUTION = 1366;
+    return Math.round(i * window.screen.width * window.devicePixelRatio / BASE_RESOLUTION) + 'px';
+};
+
 function Banner() {
     return (
         <div id="banner-div">
@@ -13,8 +18,8 @@ function Banner() {
                     <div id="banner-div-1-spacerflex-2" />
                     <div id="banner-div-1-content-div">
                         &nbsp;
-                        <img src={GdscMono} alt="" height="13em" />
-                        <span id="banner-div-1-content-gdsc">
+                        <img src={GdscMono} alt="" height={ipx(15)} />
+                        <span id="banner-div-1-content-gdsc" style={{fontSize: ipx(20)}}>
                             &nbsp; Google Developer Student Club<br />
                         </span>
                     </div>
@@ -23,7 +28,7 @@ function Banner() {
             <div id="banner-div-2">
                 <div id="banner-div-2-spacerflex-1" />
                 <div id="banner-div-2-content-div">
-                    <span id="banner-div-2-content-drlbce">
+                    <span id="banner-div-2-content-drlbce" style={{fontSize: ipx(80)}}>
                         Dr. Lankapalli<br />
                         Bullayya College<br />
                         of Engineering
@@ -38,20 +43,20 @@ function Banner() {
                         <div id="banner-div-3-div-socials-spacerflex-2" />
                         <div id="banner-div-3-div-socials-div-socials-div-socials">
                             <div className="banner-div-3-div-socials-emblem">
-                                <img src={LinkedIn} alt="" height="25em" />
+                                <img src={LinkedIn} alt="" height={ipx(28)} />
                             </div>
                             <div className="banner-div-3-div-socials-emblem">
-                                <img src={Twitter} alt="" height="25em" />
+                                <img src={Twitter} alt="" height={ipx(28)} />
                             </div>
                             <div className="banner-div-3-div-socials-emblem">
-                                <img src={Github} alt="" height="25em" />
+                                <img src={Github} alt="" height={ipx(28)} />
                             </div>
                             <div id="banner-div-3-div-socials-spacerflex-3" />
                         </div>
                     </div>
                 </div>
                 <div id="banner-div-3-div-powered">
-                    <span id="banner-div-3-div-powered-content">
+                    <span id="banner-div-3-div-powered-content" style={{fontSize: ipx(15)}}>
                         &nbsp; Powered by <b>Google Developers</b><br />
                     </span>
                 </div>
