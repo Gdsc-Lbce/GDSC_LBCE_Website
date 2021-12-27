@@ -1,4 +1,6 @@
 #about-us-div {
+    min-width: 1024px;
+    max-width: 2560px;
     position: absolute;
     display: block;
     width: 100%;
