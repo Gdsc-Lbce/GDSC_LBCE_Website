@@ -19,9 +19,7 @@ function AboutUs() {
             duration : 1000,
             once: true,  // to be trued during deployment
         });
-    }, []);
 
-    useEffect(() => {
         var translationDiff = 0;
         function updateSVGPosition() {
             const yOffset = document.body.ownerDocument.defaultView.pageYOffset - document.body.scrollTop;
