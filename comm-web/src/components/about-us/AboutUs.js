@@ -13,6 +13,11 @@ const ipx = (i) => {
     return Math.round(i * window.screen.width * window.devicePixelRatio / BASE_RESOLUTION) + 'px';
 };
 
+const ipxv = (i) => {
+    const BASE_RESOLUTION = 1366;
+    return Math.round(i * window.screen.width * window.devicePixelRatio / BASE_RESOLUTION);
+};
+
 function AboutUs() {
     useEffect(() => {
         AOS.init({
@@ -28,11 +33,17 @@ function AboutUs() {
             if (translation < 90 && translationDiff > 10)
                 document.getElementById('w-curve').style.backgroundPosition = `${translation}% 90%`;
         };
-        window.addEventListener("scroll", updateSVGPosition, false)
+        window.addEventListener("scroll", updateSVGPosition, false);
+
+        function updateAboutUsDivPosition() {
+            const topOffset = ((window.innerHeight - ipxv(60)) > 1380) ? 1380 : (window.innerHeight - ipxv(60));
+            document.getElementById('about-us-div').style.top = `${topOffset}px`
+        }
+        window.addEventListener("resize", updateAboutUsDivPosition, false);
     }, []);
 
     return (
-        <div id="about-us-div" style={{top: `${window.innerHeight - 60}px`}}>
+        <div id="about-us-div" style={{top: `${((window.innerHeight - ipxv(60)) > 1380) ? 1380 : (window.innerHeight - ipxv(60))}px`}}>
             <div id="w-curve" style={{backgroundSize: `${ipx(3000)}px ${90}px`, height: `${ipx(85)}`}} />
             <div id="about-us-bg" style={{paddingTop: `${ipx(10)}`}}>
                 <div id="about-us-title" style={{paddingLeft: `${ipx(50)}`, paddingBottom: `${ipx(50)}`}}>
