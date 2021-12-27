@@ -1,0 +1,95 @@
+#about-us-div {
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+
+#w-curve {
+    transition: all 3s ease-out;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-image: url('./wave.svg');
+    background-position: 50% 90%;
+    background-size: 3000px 80px;
+    width: 100%;
+    height: 85px;
+}
+
+#about-us-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(34, 32, 39, 1);
+    width: 100%;
+    padding-top: 10px;
+}
+
+#about-us-title {
+    flex: 1 1 2%;
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+#about-us-title-lbce {
+    text-align: left;
+    font: "Ubuntu Mono";
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(74, 74, 75);
+}
+
+#about-us-title-gdsc {
+    text-align: left;
+    font: "Ubuntu Mono";
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(37, 169, 242);
+}
+
+#about-us-p-div {
+    flex: 1 1 49%;
+    padding-left: 50px;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+#about-us-p-svg {
+    width: 45%;
+}
+
+#about-us-p-content-div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: left;
+    padding: 30px;
+}
+
+#about-us-p-content-spacerflex {
+    flex: 1 1 48%;
+}
+
+#about-us-p-1 {
+    font: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+}
+
+#about-us-p-2 {
+    font: "Montserrat";
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#about-us-p-3 {
+    font: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0px;
+}
