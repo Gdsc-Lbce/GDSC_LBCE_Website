@@ -10,7 +10,7 @@ import AboutUs from './components/about-us/AboutUs';
 
 const App = () => {
   return (
-    <Router className="App">
+    <Router>
     <Banner />
     <Navbar />
     <AboutUs />
