@@ -11,8 +11,8 @@ import AboutUs from './components/about-us/AboutUs';
 const App = () => {
   return (
     <Router>
-    <Banner />
     <Navbar />
+    <Banner />
     <AboutUs />
     <div>
       <h1 id='faqtitle'>Frequently Asked Questions</h1>
