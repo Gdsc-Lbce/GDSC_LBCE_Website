@@ -28,7 +28,7 @@ function Banner() {
             <div id="banner-div-2">
                 <div id="banner-div-2-spacerflex-1" />
                 <div id="banner-div-2-content-div">
-                    <span id="banner-div-2-content-drlbce" style={{fontSize: ipx(80)}}>
+                    <span id="banner-div-2-content-drlbce" style={{fontSize: ipx(90)}}>
                         Dr. Lankapalli<br />
                         Bullayya College<br />
                         of Engineering
