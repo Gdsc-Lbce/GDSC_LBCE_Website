@@ -2,7 +2,7 @@
     display: block;
     text-align: center;
     background-color: black;
-    background: url("./darthmaterial.jpg");
+    background: url("./res/darthmaterial.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

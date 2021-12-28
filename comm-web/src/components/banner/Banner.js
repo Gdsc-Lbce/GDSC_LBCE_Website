@@ -1,7 +1,7 @@
-import GdscMono from "./gdscMono.png";
-import Twitter from "./twitter.png";
-import LinkedIn from "./linkedin.png";
-import Github from "./github.png";
+import GdscMono from "./res/gdscMono.png";
+import Twitter from "./res/twitter.png";
+import LinkedIn from "./res/linkedin.png";
+import Github from "./res/github.png";
 import "./Banner.css";
 
 const ipx = (i) => {

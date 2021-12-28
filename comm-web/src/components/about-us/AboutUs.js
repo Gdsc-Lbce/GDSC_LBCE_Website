@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./AboutUs.css";
-import Rocket from "./rocket.svg";
-import Collab from "./collaborating.svg";
+import Rocket from "./res/rocket.svg";
+import Collab from "./res/collaborating.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

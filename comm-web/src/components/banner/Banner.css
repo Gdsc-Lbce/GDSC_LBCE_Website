@@ -9,7 +9,7 @@
     top: 0px;
     flex-direction: column;
     text-align: left;
-    background-image: url(./ArrowGradient.svg), url(./codecode.jpg);
+    background-image: url(./res/ArrowGradient.svg), url(./res/codecode.jpg);
     background-size: contain, cover;
     background-position: right, center;
     background-repeat: no-repeat;

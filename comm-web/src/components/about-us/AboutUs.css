@@ -10,7 +10,7 @@
     transition: all 3s ease-out;
     overflow-y: hidden;
     background-repeat: no-repeat;
-    background-image: url('./wave.svg');
+    background-image: url('./res/wave.svg');
     background-position: 50% 90%;
     width: 100%;
 }
