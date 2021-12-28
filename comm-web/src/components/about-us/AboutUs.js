@@ -44,7 +44,7 @@ function AboutUs() {
 
     return (
         <div id="about-us-div" style={{top: `${((window.innerHeight - ipxv(60)) > 1380) ? 1380 : (window.innerHeight - ipxv(60))}px`}}>
-            <div id="w-curve" style={{backgroundSize: `${ipx(3000)} ${ipx(85)}`, height: `${ipx(85)}`}} />
+            <div id="w-curve" style={{backgroundSize: `${ipx(4000)} ${ipx(85)}`, height: `${ipx(85)}`}} />
             <div id="about-us-bg" style={{paddingTop: `${ipx(10)}`}}>
                 <div id="about-us-title" style={{paddingLeft: `${ipx(50)}`, paddingBottom: `${ipx(50)}`}}>
                     <span id="about-us-title-lbce" style={{fontSize: `${ipx(25)}`}}>LBCE /&nbsp;</span>
