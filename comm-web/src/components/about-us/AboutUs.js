@@ -44,7 +44,7 @@ function AboutUs() {
 
     return (
         <div id="about-us-div" style={{top: `${((window.innerHeight - ipxv(60)) > 1380) ? 1380 : (window.innerHeight - ipxv(60))}px`}}>
-            <div id="w-curve" style={{backgroundSize: `${ipx(3000)}px ${90}px`, height: `${ipx(85)}`}} />
+            <div id="w-curve" style={{backgroundSize: `${ipx(3000)} ${ipx(85)}`, height: `${ipx(85)}`}} />
             <div id="about-us-bg" style={{paddingTop: `${ipx(10)}`}}>
                 <div id="about-us-title" style={{paddingLeft: `${ipx(50)}`, paddingBottom: `${ipx(50)}`}}>
                     <span id="about-us-title-lbce" style={{fontSize: `${ipx(25)}`}}>LBCE /&nbsp;</span>
@@ -62,7 +62,7 @@ function AboutUs() {
                         <div className="about-us-p-content-spacerflex" />
                     </div>
                 </div>
-                <div className="about-us-p-div">
+                <div className="about-us-p-div" style={{paddingLeft: `${ipx(50)}`, paddingBottom: `${ipx(60)}`}}>
                     <div className="about-us-p-content-div">
                         <div className="about-us-p-content-spacerflex" />
                         <p className="about-us-p-1" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">WHAT DO WE DO?</p>
