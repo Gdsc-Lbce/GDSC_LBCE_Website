@@ -48,18 +48,18 @@
     color: rgb(37, 169, 242);
 }
 
-#about-us-p-div {
+.about-us-p-div {
     flex: 1 1 49%;
     padding-left: 50px;
     display: flex;
     padding-bottom: 60px;
 }
 
-#about-us-p-svg {
+.about-us-p-svg {
     width: 45%;
 }
 
-#about-us-p-content-div {
+.about-us-p-content-div {
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -67,11 +67,11 @@
     padding: 30px;
 }
 
-#about-us-p-content-spacerflex {
+.about-us-p-content-spacerflex {
     flex: 1 1 48%;
 }
 
-#about-us-p-1 {
+.about-us-p-1 {
     font: "Montserrat";
     font-size: 15px;
     font-weight: 600;
@@ -79,7 +79,7 @@
     margin: 0px;
 }
 
-#about-us-p-2 {
+.about-us-p-2 {
     font: "Montserrat";
     font-size: 30px;
     font-weight: 600;
@@ -88,7 +88,7 @@
     margin-bottom: 5px;
 }
 
-#about-us-p-3 {
+.about-us-p-3 {
     font: "Montserrat";
     font-size: 15px;
     font-weight: 400;

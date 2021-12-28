@@ -50,27 +50,27 @@ function AboutUs() {
                     <span id="about-us-title-lbce" style={{fontSize: `${ipx(25)}`}}>LBCE /&nbsp;</span>
                     <span id="about-us-title-gdsc" style={{fontSize: `${ipx(25)}`}}>Google Developer Student Club</span>                
                 </div>
-                <div id="about-us-p-div" style={{paddingLeft: `${ipx(50)}`, paddingBottom: `${ipx(60)}`}}>
-                    <div id="about-us-p-svg">
+                <div className="about-us-p-div" style={{paddingLeft: `${ipx(50)}`, paddingBottom: `${ipx(60)}`}}>
+                    <div className="about-us-p-svg">
                         <img data-aos="zoom-in-up" src={Rocket} alt="" width="80%" />
                     </div>
-                    <div id="about-us-p-content-div" style={{padding: `${ipx(30)}`}}>
-                        <div id="about-us-p-content-spacerflex" />
-                        <p id="about-us-p-1" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">WHO ARE WE?</p>
-                        <p id="about-us-p-2" style={{fontSize: `${ipx(30)}`, marginTop: `${ipx(5)}`, marginBottom: `${ipx(5)}`}} data-aos="fade-up" data-aos-offset="50">{"GDSC LBCE Chapter"}</p>
-                        <p id="about-us-p-3" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">{WHO_ARE_WE}</p>
-                        <div id="about-us-p-content-spacerflex" />
+                    <div className="about-us-p-content-div" style={{padding: `${ipx(30)}`}}>
+                        <div className="about-us-p-content-spacerflex" />
+                        <p className="about-us-p-1" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">WHO ARE WE?</p>
+                        <p className="about-us-p-2" style={{fontSize: `${ipx(30)}`, marginTop: `${ipx(5)}`, marginBottom: `${ipx(5)}`}} data-aos="fade-up" data-aos-offset="50">{"GDSC LBCE Chapter"}</p>
+                        <p className="about-us-p-3" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">{WHO_ARE_WE}</p>
+                        <div className="about-us-p-content-spacerflex" />
                     </div>
                 </div>
-                <div id="about-us-p-div">
-                    <div id="about-us-p-content-div">
-                        <div id="about-us-p-content-spacerflex" />
-                        <p id="about-us-p-1" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">WHAT DO WE DO?</p>
-                        <p id="about-us-p-2" style={{fontSize: `${ipx(30)}`, marginTop: `${ipx(5)}`, marginBottom: `${ipx(5)}`}} data-aos="fade-up" data-aos-offset="100">“Bridging the gap<br />between theory and practice”</p>
-                        <p id="about-us-p-3" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="150">{WHAT_DO_WE_DO}</p>
-                        <div id="about-us-p-content-spacerflex" />
+                <div className="about-us-p-div">
+                    <div className="about-us-p-content-div">
+                        <div className="about-us-p-content-spacerflex" />
+                        <p className="about-us-p-1" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="50">WHAT DO WE DO?</p>
+                        <p className="about-us-p-2" style={{fontSize: `${ipx(30)}`, marginTop: `${ipx(5)}`, marginBottom: `${ipx(5)}`}} data-aos="fade-up" data-aos-offset="100">“Bridging the gap<br />between theory and practice”</p>
+                        <p className="about-us-p-3" style={{fontSize: `${ipx(15)}`, margin: `${ipx(0)}`}} data-aos="fade-up" data-aos-offset="150">{WHAT_DO_WE_DO}</p>
+                        <div className="about-us-p-content-spacerflex" />
                     </div>
-                    <div id="about-us-p-svg">
+                    <div className="about-us-p-svg">
                         <img data-aos="zoom-in-up" src={Collab} alt="" width="80%" />
                     </div>
                 </div>
