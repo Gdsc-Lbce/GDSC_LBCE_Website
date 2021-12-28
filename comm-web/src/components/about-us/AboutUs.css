@@ -48,12 +48,18 @@
 
 .about-us-p-svg {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-p-svg-spacerflex {
+    flex: auto;
 }
 
 .about-us-p-content-div {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 50%;
     text-align: left;
 }
 
@@ -78,4 +84,42 @@
     font: "Montserrat";
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.about-us-p-mission-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-us-p-mission-div-mission-div {
+    flex: 1 1 30%;
+    display: flex;
+}
+
+.about-us-p-mission-div-mission-div-mission-div {
+    display: flex;
+}
+
+.about-us-p-mission-emblem-spacerflex {
+    flex: auto;
+}
+
+.about-us-p-mission-emblem-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-p-mission-title {
+    flex: 1 1 1%;
+    font: "Montserrat";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.about-us-p-mission-content {
+    flex: 1 1 1%;
+    font: "Montserrat";
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
 }
