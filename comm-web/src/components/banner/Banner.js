@@ -1,3 +1,4 @@
+import React from 'react';
 import GdscMono from "./res/gdscMono.png";
 import Twitter from "./res/twitter.png";
 import LinkedIn from "./res/linkedin.png";
