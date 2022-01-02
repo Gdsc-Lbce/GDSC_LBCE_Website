@@ -1,0 +1,125 @@
+#about-us-div {
+    min-width: 1024px;
+    max-width: 2560px;
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+
+#w-curve {
+    transition: all 3s ease-out;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-image: url('./res/wave.svg');
+    background-position: 50% 90%;
+    width: 100%;
+}
+
+#about-us-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(34, 32, 39, 1);
+    width: 100%;
+}
+
+#about-us-title {
+    flex: 1 1 2%;
+    display: flex;
+}
+
+#about-us-title-lbce {
+    text-align: left;
+    font: "Ubuntu Mono";
+    font-weight: 600;
+    color: rgb(74, 74, 75);
+}
+
+#about-us-title-gdsc {
+    text-align: left;
+    font: "Ubuntu Mono";
+    font-weight: 600;
+    color: rgb(37, 169, 242);
+}
+
+.about-us-p-div {
+    flex: 1 1 49%;
+    display: flex;
+}
+
+.about-us-p-svg {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-p-svg-spacerflex {
+    flex: auto;
+}
+
+.about-us-p-content-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.about-us-p-content-spacerflex {
+    flex: 1 1 48%;
+}
+
+.about-us-p-1 {
+    font: "Montserrat";
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+}
+
+.about-us-p-2 {
+    font: "Montserrat";
+    font-weight: 600;
+    color: white;
+}
+
+.about-us-p-3 {
+    font: "Montserrat";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.about-us-p-mission-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-us-p-mission-div-mission-div {
+    flex: 1 1 30%;
+    display: flex;
+}
+
+.about-us-p-mission-div-mission-div-mission-div {
+    display: flex;
+}
+
+.about-us-p-mission-emblem-spacerflex {
+    flex: auto;
+}
+
+.about-us-p-mission-emblem-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-p-mission-title {
+    flex: 1 1 1%;
+    font: "Montserrat";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.about-us-p-mission-content {
+    flex: 1 1 1%;
+    font: "Montserrat";
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
