@@ -1,0 +1,117 @@
+#banner-div {
+    min-width: 1024px;
+    max-width: 2560px;
+    max-height: 1440px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    flex-direction: column;
+    text-align: left;
+    background-image: url(./res/ArrowGradient.svg), url(./res/codecode.jpg);
+    background-size: contain, cover;
+    background-position: right, center;
+    background-repeat: no-repeat;
+}
+
+#banner-div-1 {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    padding: 0 0 0 6%;
+    color: white;
+}
+
+#banner-div-1-spacerflex-1 {
+    flex: auto;
+}
+
+#banner-div-1-spacerflex-2 {
+    flex: 1 1 96%;
+}
+
+#banner-div-1-content-div {
+    flex: 1 1 4%;
+}
+
+#banner-div-1-content-gdsc {
+    font: "PT Sans";
+    font-weight: 900;
+}
+
+#banner-div-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1%;
+    padding: 0 0 0 6%;
+    color: white;
+}
+
+#banner-div-2-spacerflex-1 {
+    flex: auto;
+}
+
+#banner-div-2-content-div {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+#banner-div-2-content-drlbce {
+    font: "Montserrat";
+    font-weight: 700;
+}
+
+#banner-div-2-spacerflex-2 {
+    flex: auto;
+}
+
+#banner-div-3 {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    padding: 0 0 0 6%;
+    color: white;
+    vertical-align: bottom;
+}
+
+#banner-div-3-div-socials {
+    display: flex;
+    flex: 1 1 60%;
+}
+
+#banner-div-3-div-socials-spacerflex-1 {
+    flex: 1 1 80%;
+}
+
+#banner-div-3-div-socials-div-socials {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20%;
+}
+
+#banner-div-3-div-socials-spacerflex-2 {
+    flex: 1 1 69%;
+}
+
+#banner-div-3-div-socials-div-socials-div-socials {
+    display: flex;
+    flex: 1 1 1%;
+}
+
+.banner-div-3-div-socials-emblem {
+    flex: 1 1 20%;
+}
+
+#banner-div-3-div-socials-spacerflex-3 {
+    flex: 1 1 31%;
+}
+
+#banner-div-3-div-powered {
+    flex: 1 1 40%;
+}
+
+#banner-div-3-div-powered-content {
+    font: "Montserrat";
+}
