@@ -1,0 +1,105 @@
+/* body{
+    width: 100%;
+    height: 1000px;
+    background: black;
+} */
+/* .banner{
+    margin-top: 10px; 
+    display: grid;
+    place-items: center center; 
+    font-family: 'Pappins',sans-serif;
+  } */
+  .cardList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+.card{
+    grid-template-areas: "image" "text" "button";
+    border-radius: 18px;
+    background-image: linear-gradient(180deg,blue 25%,white 25%, white 50%);  
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    /* cursor: pointer; */
+    /* max-width: 25vw; */
+}
+.cardImage{
+    grid-area: image;
+    background-size: cover;
+    margin-top: 40px;
+}
+#cardImage{
+    width: 110px;
+    height: 110px;
+}
+.cardText{
+    grid-area: text;
+    margin-top: 40px;
+}
+.cardButtons{
+    grid-area: button;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin: 10px;
+}
+img{
+    width: 70%;
+    border-radius: 50%;
+    border-color: 1px solid red;
+}
+#twitter{
+    width: 50%;
+    cursor: pointer;
+}
+#linkedin{
+    width: 80%;
+    cursor: pointer;
+}
+#github{
+    width: 80%;
+    cursor: pointer;
+}
+#gmail{
+    width: 80%;
+    cursor: pointer;
+}
+#twitter:hover{
+    transform: scale(1.2);
+    transition: all 0.75s ease;
+}
+#linkedin:hover{
+    transform: scale(1.2);
+    transition: all 0.75s ease;
+}
+#github:hover{
+    transform: scale(1.2);
+    transition: all 0.75s ease;
+}
+#gmail:hover{
+    transform: scale(1.2);
+    transition: all 0.75s ease;
+}
+@media (max-width: 500px){
+    .cardList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.75s ease;
+    box-shadow: 4px 4px 30px blue;
+}
+/* #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url({img8}) no-repeat center;
+    z-index: 999;
+} */
