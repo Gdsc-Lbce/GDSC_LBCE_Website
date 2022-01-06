@@ -1,0 +1,16 @@
+footer{
+    width:100%;
+    height:auto;
+    background-color: #100C08;
+  
+  }
+  .footerlink{
+    padding:20px;
+    margin-top:50px;
+  }
+  hr{
+    width: 80px; background-color: white; height: 2px;
+  }
+  .copyrt{
+    background-color: #191C20;
+  }
