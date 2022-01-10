@@ -7,6 +7,7 @@ import { accordionData } from './components/FAQ/data';
 import accordionstyle from './components/FAQ/accordionstyle.css';
 import Banner from './components/banner/Banner';
 import AboutUs from './components/about-us/AboutUs';
+import Section from './components/Section/Section';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Navbar />
     <Banner />
     <AboutUs />
+    <Section />
     <div>
       <h1 id='faqtitle'>Frequently Asked Questions</h1>
       <div className="accordion">

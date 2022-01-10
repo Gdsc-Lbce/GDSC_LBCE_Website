@@ -1,0 +1,46 @@
+h2 {
+    margin: 0px 8px;
+}
+
+.secContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.secCard {
+    background: white;
+    width: 250px;
+    margin: 40px 60px;
+    border-radius: 15px;
+}
+
+.secCard-img img{
+    width: 250px;
+    margin-bottom: 30px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.secCard p {
+    padding: 10px;
+}
+
+.secCard a {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+    margin: 10px 50px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.secCard:hover {
+    background-color: rgb(97 90 102);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.75s ease;
+}
