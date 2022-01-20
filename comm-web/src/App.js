@@ -7,7 +7,10 @@ import { accordionData } from './components/FAQ/data';
 import accordionstyle from './components/FAQ/accordionstyle.css';
 import Banner from './components/banner/Banner';
 import AboutUs from './components/about-us/AboutUs';
+
 import Card from './components/Card/Card';
+import Footer from 'components/Footer/Footer';
+
 
 const App = () => {
   return (
@@ -16,6 +19,7 @@ const App = () => {
     <Banner />
     <AboutUs />
     <Card />
+    <Footer />
     <div>
       <h1 id='faqtitle'>Frequently Asked Questions</h1>
       <div className="accordion">
