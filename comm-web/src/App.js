@@ -7,6 +7,7 @@ import { accordionData } from './components/FAQ/data';
 import accordionstyle from './components/FAQ/accordionstyle.css';
 import Banner from './components/banner/Banner';
 import AboutUs from './components/about-us/AboutUs';
+import Section from './components/Section/Section';
 
 import Card from './components/Card/Card';
 import Footer from 'components/Footer/Footer';
@@ -18,6 +19,7 @@ const App = () => {
     <Navbar />
     <Banner />
     <AboutUs />
+    <Section />
     <Card />
     <Footer />
     <div>
