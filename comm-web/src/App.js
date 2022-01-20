@@ -9,6 +9,10 @@ import Banner from './components/banner/Banner';
 import AboutUs from './components/about-us/AboutUs';
 import Section from './components/Section/Section';
 
+import Card from './components/Card/Card';
+import Footer from 'components/Footer/Footer';
+
+
 const App = () => {
   return (
     <Router>
@@ -16,6 +20,8 @@ const App = () => {
     <Banner />
     <AboutUs />
     <Section />
+    <Card />
+    <Footer />
     <div>
       <h1 id='faqtitle'>Frequently Asked Questions</h1>
       <div className="accordion">
