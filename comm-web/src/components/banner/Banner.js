@@ -44,13 +44,19 @@ function Banner() {
                         <div id="banner-div-3-div-socials-spacerflex-2" />
                         <div id="banner-div-3-div-socials-div-socials-div-socials">
                             <div className="banner-div-3-div-socials-emblem">
-                                <img src={LinkedIn} alt="" height={ipx(28)} />
+                               <a href="https://www.linkedin.com/company/gdsc-lbce/" target="_blank" rel="noreferrer">
+                               <img src={LinkedIn} alt="" height={ipx(28)} />
+                               </a>
                             </div>
                             <div className="banner-div-3-div-socials-emblem">
+                                <a href="https://twitter.com/GdscLbce" target="_blank" rel="noreferrer">
                                 <img src={Twitter} alt="" height={ipx(28)} />
+                                </a>                           
                             </div>
                             <div className="banner-div-3-div-socials-emblem">
+                                <a href="https://github.com/Gdsc-Lbce" target="_blank" rel="noreferrer">
                                 <img src={Github} alt="" height={ipx(28)} />
+                                </a>
                             </div>
                             <div id="banner-div-3-div-socials-spacerflex-3" />
                         </div>
