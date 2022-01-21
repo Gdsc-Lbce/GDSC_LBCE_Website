@@ -10,7 +10,7 @@ import AboutUs from './components/about-us/AboutUs';
 import Section from './components/Section/Section';
 
 import Card from './components/Card/Card';
-import Footer from 'components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {

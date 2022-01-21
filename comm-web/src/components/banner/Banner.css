@@ -5,7 +5,7 @@
     height: 100%;
     width: 100%;
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
     flex-direction: column;
     text-align: left;
