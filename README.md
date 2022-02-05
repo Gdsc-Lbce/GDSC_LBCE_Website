@@ -24,11 +24,14 @@ This is a newly found GDSC club and we are looking for some contributors to help
 ## Setting Environment First Time 
 
 Run the following command to install the required dependencies.
+1. change your current directory in command line (cmd) to comm-web for example :-
 
-1. `npm install ` - install the required dependencies
-2. `npm start` - start the development server
-3. Open http://localhost:3000 in your browser
-4. New to React and want to learn more ? <a href="https://github.com/Gdsc-Lbce/GDSC_LBCE_Website/blob/main/comm-web/README.md"> click here</a> to know more. 
+![image](https://user-images.githubusercontent.com/75005433/152637115-9b7a393b-4d41-4e04-b4e2-f39e43b7cf90.png)
+
+2. `npm install ` - install the required dependencies
+3. `npm start` - start the development server
+4. Open http://localhost:3000 in your browser
+5. New to React and want to learn more ? <a href="https://github.com/Gdsc-Lbce/GDSC_LBCE_Website/blob/main/comm-web/README.md"> click here</a> to know more. 
 
 <br>
 
