@@ -21,6 +21,17 @@ This is a newly found GDSC club and we are looking for some contributors to help
 
 <br>
 
+## Setting Environment First Time 
+
+Run the following command to install the required dependencies.
+
+1. `npm install ` - install the required dependencies
+2. `npm start` - start the development server
+3. Open http://localhost:3000 in your browser
+4. New to React and want to learn more ? <a href="https://github.com/Gdsc-Lbce/GDSC_LBCE_Website/blob/main/comm-web/README.md"> click here</a> to know more. 
+
+<br>
+
 ## Steps to start contributing to the project
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
